@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tejas's fittness</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url("images/body.jpg");
+        background-size: 100%;
+        height: 1000px;
+        background-repeat: no-repeat;
+        color: white;
+        font-family: "Babylonica", cursive;
+      }
+      .left {
+        /* border: 2px solid red;   */
+        display: inline-block;
+        position: absolute;
+        left: 40px;
+        top: -15px;
+      }
+      .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 43%;
+        margin: 20px auto;
+      }
+      .right {
+        /* border: 2px solid blue ; */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 32px;
+      }
+      .navbar {
+        display: inline-block;
+      }
+      .navbar li {
+        display: inline-block;
+        font-size: 18px;
+      }
+      .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+      }
+      .navbar li a:hover,
+      .navbar li a:active {
+        text-decoration: underline;
+        color: gray;
+      }
+
+      .left img {
+        width: 100px;
+      }
+      .left p {
+        text-align: center;
+        margin-top: 0px;
+      }
+      .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: "Babylonica", cursive;
+        text-align: center;
+        margin-left: 20px;
+      }
+      .btn:hover {
+        background-color: rgb(42, 41, 41);
+      }
+      .container {
+        border: 2px solid white;
+        margin: 97px 84px;
+        padding: 69px 31px;
+        width: 51%;
+        border-radius: 25px;
+      }
+      .container h1 {
+        text-align: center;
+        font-size: 22px;
+      }
+      .form-group input {
+        text-align: center;
+        display: block;
+        width: 520x;
+        padding: 0px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 20px;
+        border-radius: 6px;
+        font-family: "Babylonica", cursive;
+      }
+      .container button {
+        text-align: center;
+      }
+      .container .btn {
+        position: absolute;
+        left: 344px;
+        width: 280px;
+      }
+      .center{
+        padding-bottom: 50px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+        <img
+          src="images/black-dumbbell-with-black-background-with-smoke_167862-8065.avif"
+          alt=""
+        />
+        <p>Tejas's fittness</p>
+      </div>
+      <!-- mid box for navbar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fittness Calculator</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <!-- Right box for button -->
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the best Gym of Pune now</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Your Name: " />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Your Age: " />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Your Gender: " />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Your Location: " />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Your Email: " />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Your Phone No: " />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <div class="center">
+        Copyright &copy; www.TejasFitness.com. All rights reserved!
+      </div>
+    </footer>
+  </body>
+</html>
